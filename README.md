@@ -1,5 +1,5 @@
 
-# Plan Buddy API![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+# Plan Buddy ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -49,10 +49,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Support and contact details
 
 If you have any questions or problems, please contact
-* Sarah ()
-* Nadia (mariiapopovych@gmail.com)
-* Steph (mariiapopovych@gmail.com)
-* Mariia (mariiapopovych@gmail.com)
+* Sarah Angel (sangel217@hotmail.com)
+* Nadia Lizcano (priscila.lizacano@gmail.com)
+* Stephen Trewick (Stephent818@gmail.com)
+* Mariia Stashuk(mariiapopovych@gmail.com)
 
 ##  Set up the project
 
@@ -97,4 +97,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-Copyright (c) 2019 **_Mariia Stashuk_ **
+Copyright (c) 2019 **_Mariia Stashuk_Sarah Angel_Nadia Lizcano_Stephen Trewick **

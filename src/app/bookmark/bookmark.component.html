@@ -31,6 +31,7 @@
 
     <div *ngFor="let reference of bookmarkedreferences | async" class="row">
       <li>{{reference.title}}</li>
+      <button (click)="removeRef(reference)">Remove</button>
 
 
     </div>

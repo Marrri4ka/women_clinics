@@ -3,6 +3,7 @@ import { BookmarkService } from '../bookmark.service';
 import { FirebaseListObservable } from 'angularfire2/database';
 import { Clinic } from '../models/clinic.model';
 import { ReferencebookmarkedService } from '../referencebookmarked.service';
+import { Reference } from '../models/reference.model';
 
 @Component({
   selector: 'app-bookmark',
@@ -24,6 +25,12 @@ export class BookmarkComponent implements OnInit {
   beginDeletingClinic(clinicToDelete: Clinic) {
     if (confirm("Are you sure you want to delete this bookmark?")) {
       this.bookmarkService.deleteBookmark(clinicToDelete);
+    }
+  }
+
+  removeRef(refToDelete: Reference) {
+    if (confirm("Are you sure you want to delete this bookmark?")) {
+      this.referenceService.deleteReference(refToDelete);
     }
   }
 

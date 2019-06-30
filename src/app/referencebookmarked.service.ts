@@ -28,6 +28,11 @@ export class ReferencebookmarkedService {
 
   }
 
+  deleteReference(refToDelete) {
+    var refEntryInFirebase = this.getReferenceById(refToDelete.$key);
+    refEntryInFirebase.remove().then(_ => console.log("deleted!"));
+  }
+
 
 
 
